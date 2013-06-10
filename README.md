@@ -2,13 +2,16 @@ Linda Floor Door Open
 =====================
 open door with Arduino Floor-sensor and RocketIO::Linda
 
-* watch Tuples ["sensor", "floor", Number]
-* write a Tuple ["door", "open"]
+- https://github.com/shokai/linda-floor-door-open
+- watch Tuples ["sensor", "floor", Number]
+- write a Tuple ["door", "open"]
 
 Dependencies
 ------------
 - Ruby 1.8.7 ~ 2.0.0
 - [LindaBase](https://github.com/shokai/linda-base)
+- [Linda Arduino FloorSensor](https://github.com/shokai/linda-arduino-floorsensor)
+- [Linda Door Phidgets Servo](https://github.com/shokai/linda-door-phidgets-servo)
 
 
 Install Dependencies
