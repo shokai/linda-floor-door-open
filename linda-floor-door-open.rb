@@ -17,7 +17,7 @@ linda.io.on :connect do  ## RocketIO's "connect" event
   ts.watch ["sensor","floor"] do |tuple|
     floor = tuple[2].to_i
     puts floor
-    if floor > 10
+    if floor > 30
       puts "open"
       ts.write ["door","open"] if last_at < Time.now+5
       last_at = Time.now
